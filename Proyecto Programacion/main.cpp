@@ -166,5 +166,7 @@ int main() {
     al_destroy_bitmap(imagen_fondo);
     al_destroy_timer(timer);
 
+    printf("Mensaje nuevo");
+
     return 0;
 }
